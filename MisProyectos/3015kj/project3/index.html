@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Equipment Online</title>
+    
+    <!-- Scripts de Bootstrap y jQuery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+<body class="bg-light">
+        <div class="container-lg">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./images/fireEquipmentLogo.png" alt="Fire Equipment Logo" width="175" height="175">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link fs-4 text-dark" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4 text-dark" href="#acerca">Acerca de Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4 text-dark" href="#nuestros">Nuestros Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4 text-dark" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="acerca" class="p-5 text-center bg-white">
+    <h2 class = "text-danger fw-bold bg-dark">Acerca de Nosotros</h2>
+    <p class="text-dark mt-4 fw-light fs-3">
+        Somos una empresa apasionada y dedicada a la protección y seguridad de su entorno. En Fire Equipment Online, nos enorgullecemos de ofrecer soluciones integrales en equipos contra incendios que protegen lo que más importa: su vida y su propiedad. Con años de experiencia en la industria y un equipo de profesionales altamente capacitados, estamos comprometidos con brindarle productos y servicios de primera calidad.
+    </p>
+    <p class="text-dark mt-4 fw-light fs-3">
+        Nuestro compromiso con la seguridad va más allá de simplemente vender equipos. Trabajamos estrechamente con nuestros clientes para comprender sus necesidades específicas y diseñar soluciones personalizadas que se adapten a su entorno. Ya sea que necesite sistemas de extinción de incendios, detectores de humo, equipos de protección personal o servicios de capacitación en seguridad contra incendios, estamos aquí para brindarle el apoyo y la asesoría que necesita.
+    </p>
+    <p class="text-dark mt-4 fw-light fs-3">
+        En Fire Equipment Online, la seguridad es nuestra prioridad número uno. Nos enorgullece ser su socio de confianza en la lucha contra incendios, y estamos comprometidos a seguir siendo líderes en la industria, proporcionando productos y servicios que marcan la diferencia. Juntos, trabajemos para crear un entorno más seguro y protegido para todos.
+    </p>
+  </section>
+
+<!-- Sección de productos -->
+<section id="nuestros" class="container py-5 text-center">
+    <h2 class = "text-danger bg-dark fw-bold mb-5">Nuestros Productos</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="./images/fireExtinguiser.webp" alt="Fire Extinguiser" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Extintor ABC</h5>
+                    <p class="card-text">Ideal para apagar incendios de tipo A, B y C. Capacidad de 5 libras.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="./images/fireHoseYellow.jpeg" alt="Fire Hose 50'" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Manguera de Incendio</h5>
+                    <p class="card-text">Manguera resistente al fuego de 50 pies de longitud.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="./images/fireSystemAlarm.webp" alt="Fire System Alarm" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Alarma de Incendio</h5>
+                    <p class="card-text">Sistema de alarma con detector de humo y sonido de emergencia.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de contacto -->
+<section id="contacto" class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contacto</h2>
+                <p>¿Tienes preguntas? Contáctanos para obtener más información sobre nuestros productos.</p>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="enviarDatos(document.getElementById('nombre').value, document.getElementById('email'.value, document.getElementById('mensaje').value))">Enviar</button>
+                </form>
+                <script>
+                    function enviarDatos(nombre, email, mensaje) {
+                        alert('Su nombre es ' + nombre );
+                        alert('Su correo electrónico es'+ email);
+                        alert('Su mensaje es'+ mensaje);
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pie de página -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Fire Equipment Online</p>
+</footer>
+
+</body>
+</html>

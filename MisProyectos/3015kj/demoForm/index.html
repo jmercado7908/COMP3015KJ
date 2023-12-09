@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <form action="procesar.php" method="post">
+      <input type="range" name="valor" id="valor" min="10" max="150" step="10"
+                oninput="outputValor.value = valor.value">
+            <output id="outputValor">100</output>%
+    <br>
+    <input type="text" name="nombre" id="Nombre" value=""
+      placeholder="Your name" maxlength="30">
+    <br>
+
+    <input type="Password" name="clave" id="clave" value=""
+      placeholder="Your Password" maxlength="15">
+    <br>
+
+    <br>
+
+    <label>Chech your favorite food</label><br>
+    <input type="checkbox" name="fruit[]" id="fruit1" value="apple"/>
+    <label for="fruit1">Apple</label>
+    <input type="checkbox" name="fruit[]" id="fruit2" value="banana"/>
+    <label for="fruit2">Banana</label>
+    <input type="checkbox" name="fruit[]" id="fruit3" value="strawberry"/>
+    <label for="fruit3">Strawberry</label><br>
+
+    <label>What is you gender</label><br>
+    <input type="radio" name="gender" id="gender" value="male"/>
+    <label for="gender1">Masculino</label>
+    <input type="radio" name="gender" id="gender" value="female"/>
+    <label for="gender2">Femenino</label>
+    <input type="radio" name="gender" id="gender" value="Otro"/>
+    <label for="gender3">Otro</label>
+    <br>
+    <input type="file" name="archivo" id="archivo">
+    <input type="hidden" name="secreto" id="secreto" value="escondido">
+    <br>
+    <textarea name="address" id="address" cols="30" rows="3" maxlength="100"></textarea>
+    <br>
+    <input type="image" src="image/Retro-Mario.ico" width="2%" alt="boton">
+    <input type="reset" value="Reset">
+    <input type="submit" value="Save">
+    <br>
+    <label for="so">Sistema operativo</label> <br/>
+    <select id="so" name="so">
+      <option value="" selected="selected">- selecciona -</option>
+      <option value="windows">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="linux">Linux</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <label for="so2">Sistema operativo</label> <br/>
+    <select id="so2" name="so2" size="5" multiple="multiple">
+      <option value="windows" selected="selected">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="linux">Linux</option>
+      <option value="otro">Otro</option>
+    </select>
+   </form>
+</body>
+</html>
